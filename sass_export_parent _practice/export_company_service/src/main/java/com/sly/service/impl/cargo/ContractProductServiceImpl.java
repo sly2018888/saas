@@ -132,4 +132,14 @@ public class ContractProductServiceImpl implements ContractProductService {
         return  contractProductDao.onlineCharts(companyId);
     }
 
+    @Override
+    public List<Map> priceCharts(String companyId) {
+        return contractProductDao.priceCharts(companyId);
+    }
+
+    @Override
+    public List<Map> ipOpNumCharts(String companyId) {
+        return contractProductDao.ipOpNumCharts(companyId);
+    }
+
 }

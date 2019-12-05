@@ -29,4 +29,8 @@ public interface ContractProductDao {
     List<Map> factoryCharts(String companyId);
 
     List<Map> onlineCharts(String companyId);
+
+    List<Map> priceCharts(String companyId);
+
+    List<Map> ipOpNumCharts(String companyId);
 }
